@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyte | Personal Website</title>
+    <link href="assets/img/logo.png" rel="icon" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  
+</head>
+
+<body class="fixed-header">
+    <!-- Background Vid -->
+    <video autoplay muted loop id="myVideo">
+        <source src="BG/BG.mp4" type="video/mp4">
+    </video>
+
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a href="#home" class="navbar-brand">
+                    <h4 class="logo mb-0">Kyte</h4>
+                </a>
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a href="#home" class="nav-link" data-scroll-nav="0">Home</a></li>
+                        <li><a href="#about" class="nav-link" data-scroll-nav="1">About</a></li>
+                        <li><a href="#work" class="nav-link" data-scroll-nav="2">Portfolio</a></li>
+                        <li><a href="#contact" class="nav-link" data-scroll-nav="3">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact sa taas -->
+                <div class="ms-auto d-none d-lg-block">
+                    <a href="https://github.com/kytecastillano"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/honey-kyte-castillano-aa6762328/"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                
+
+                <!-- Mobile Menu Toggle -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-collapse-toggle"><span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="home-section bg-gray" data-scroll-index="0">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h5>Hi, I'm <span class="blue">Honey Kyte</span></h5>
+                            <h1>An Aspiring <span id="type-it"></span></h1>
+                            <a href="#about" class="colored-btn mt-1">About me</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="assets/img/kyte2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About | Skill Section Gi-apil na nako sa About-->
+        <section id="about" class="section" data-scroll-index="1">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Learn More About Me <a href="assets/doc/CASTILLANO,HONEYKYTE_CV.pdf"><i class="bx bx-link"></i></a></h3>
+                </div>
+                <div class="row gy-5 pb-5 align-items-center ">
+                    <div class="col-lg-6 text-center">
+                        <div class="home-image text-center">
+                            <img src="assets/img/kyte.jpg" alt="">
+                        </div>
+                    </div>
+                        <div class="col-lg-6 ps-lg-5">
+                            <h3 class="type">I'm a <span id="type-it1"></span> from Caraga State University</h3>
+                                <h4><span class="green">Name:</span> Honey Kyte L. Castillano</h4>
+                                <h4><span class="green">Nickname:</span>  <span id="type-it2"></span></h4>
+                                    <div class="about-text">
+                                        <h3 class="green">Academic Highlights</h3>
+                                        <ul>
+                                            <li>Currently enrolled in the Bachelor of Science
+                                                Information Technology program at Caraga State University</li>
+                                            <li>Completed and defended a project on “Shared Database, Java RMI, and XML Parsing” for
+                                                IT-106</li>
+                                            <li>Successfully Deployed Mobile Application Project</li>
+                                        </ul>
+                                        <h3 class="green">ORGANIZATION AFFILIATIONS</h3> <ul><li>Member, CSU Society of Information Technology Students (SITeS)
+                                            2022 </li></ul>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="section-heading text-center">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="skill-box">
+                            <div class="row g-3">
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon">
+                                            <i class='bx bxl-java'></i>
+                                        </div>
+                                        <h6>Java</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-2">
+                                        <div class="icon">
+                                            <i class='bx bxl-python'></i>
+                                        </div>
+                                        <h6>Python</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-3">
+                                        <div class="icon">
+                                            <i class='bx bx-code-alt'></i>
+                                        </div>
+                                        <h6>C Programming</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-4">
+                                        <div class="icon">
+                                            <i class='bx bxl-postgresql'></i>
+                                        </div>
+                                        <h6>Postgresql</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-5">
+                                        <div class="icon">
+                                            <i class="bx bxl-html5 "></i>
+                                        </div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-6">
+                                        <div class="icon">
+                                            <i class='bx bxl-css3'></i>
+                                        </div>
+                                        <h6>CSS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5 pb-3 text-center">
+                        <img src="assets/img/skills.png" alt="">
+                    </div>
+                    <div class="section-heading ">
+                        <h3>Certifications</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert6.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert5.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert4.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert3.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert2.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert1.png" class="card-img-top" alt="...">
+                                <a></a>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Section Gi-apil na nako sa About-->
+        <!-- <section id="skill" class="section">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="section-heading text-center">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="skill-box">
+                            <div class="row g-3">
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon">
+                                            <i class='bx bxl-java'></i>
+                                        </div>
+                                        <h6>Java</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-2">
+                                        <div class="icon">
+                                            <i class='bx bxl-python'></i>
+                                        </div>
+                                        <h6>Python</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-3">
+                                        <div class="icon">
+                                            <i class='bx bx-code-alt'></i>
+                                        </div>
+                                        <h6>C Programming</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-4">
+                                        <div class="icon">
+                                            <i class='bx bxl-postgresql'></i>
+                                        </div>
+                                        <h6>Postgresql</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-5">
+                                        <div class="icon">
+                                            <i class="bx bxl-html5 "></i>
+                                        </div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-6">
+                                        <div class="icon">
+                                            <i class='bx bxl-css3'></i>
+                                        </div>
+                                        <h6>CSS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="assets/img/skills.png" alt="">
+                    </div>
+                    <div class="section-heading">
+                        <h3>Certifications</h3>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert6.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert5.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert4.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert3.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert2.png" class="card-img-top" alt="...">
+                            </div>           
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-5">
+                            <div class="card">
+                                <img src="assets/img/cert1.png" class="card-img-top" alt="...">
+                                <a></a>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- Work Section, Gi portfolio nalang-->
+        <section id="work" class="section bg-gray" data-scroll-index="3">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Projects</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 mt-5">
+                        <div class="card">
+                            <img src="assets/img/project1.png" class="card-img-top" alt="...">
+                        </div>
+                        <h3 class="work text-center mt-3">Cocktail Cove Mobile Application</h3>
+                        <p class="text-center mt-3 mx-auto" >Cocktail Cove is your easy guide to cocktails. Discover new recipes, get step-by-step instructions, and create delicious drinks right at home.</p>
+                        <a href="https://drive.google.com/drive/folders/1F7zMeuUvyE-IOedRdo7DwHfRutE9Tqp5" class="centered-link ">Click here to view more!</a>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mt-5">
+                        <div class="card">
+                            <img src="assets/img/project1.png" class="card-img-top" alt="...">
+                        </div>
+                        <h3 class="work text-center mt-3">Implementation of Shared-Database, Java RMI and XML Parsing
+                        </h3>
+                        <p class="text-center mt-3 mx-auto">This project creates a system where a Java application and a Laravel web app share a single database to manage and display student information. The Java app handles data processing and XML parsing, while the Laravel app shows this data on a website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                            <img src="assets/img/contact.png" alt="">
+                    </div>
+                    <div class="col-lg-5 ms-auto col-xl-4">
+                        <div class="pb-5 d-none d-mb-block">
+                            <img src="#" class="w-100" alt="">
+                        </div>
+                        <ul class="contact-infos">
+                            <li>   
+                                <div class="icon bg-1">
+                                    <i class="bx bx-map-pin"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Address</h5>
+                                    <p>Butuan City, Philippines</p>
+                                </div>           
+                            </li>
+                            <li>
+                                <div class="icon bg-1">
+                                    <i class="bx bxl-github"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Github</h5>
+                                    <a href="https://github.com/kytecastillano"><p>github.com/honeykytecastillano</p></a>
+                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-1">
+                                    <i class="bx bxl-linkedin"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Linkedin</h5>
+    
+                                    <a href="https://www.linkedin.com/in/honey-kyte-castillano-aa6762328/"><p>linkedin.com/honey-kyte-castillano</p>
+                                    </a>
+                            </li>
+                            <li>
+                                <div class="icon bg-1">
+                                    <i class="bx bx-phone"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Phone</h5>
+                                    <p>+639561523487</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-1">
+                                    <i class="bx bx-envelope"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Mail</h5>
+                                    <a href="mailto:honeykyte@gmail.com"><p>honeykyte@gmail.com</p></a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="credits">
+          <b>Kyte | Personal Website</b>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/scrollit@latest/scrollIt.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
