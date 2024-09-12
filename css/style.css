@@ -4,8 +4,7 @@
     --primary-color:#00BFFF;
     --dark-color:#50C878;
 }
-/* #50C878,#00BFFF */
-/* Background */
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -23,7 +22,6 @@ body {
     font-weight: 400;
     color:#93f3fc; 
 }
-/* #7CF5FF*/
 
 img{
     max-width: 100%;
@@ -109,7 +107,6 @@ a:hover {
         top: 100%;
         left: 0;
         right: 0;
-        /* background: #fff; */
         background-color: rgb(0, 0, 0, 0.85);
     }
 
@@ -156,7 +153,6 @@ a:hover {
 }
 
 .fixed-header .main-header {
-    /* background: rgba(255,255,255,.9); #FF9874 */
     background-color: rgb(0, 0, 0, 0.85);
     backdrop-filter: blur(10px);
     box-shadow: 0 0.125rem 0.25rem rgba(55, 55, 55, .07);
@@ -184,19 +180,6 @@ a:hover {
     border-color: var(--dark-color);
     box-shadow: 5px 5px 0 -2px var(--primary-color)
 }
-/* 
-.bg-gray {
-    background-color: rgba(254, 196, 72, .1);
-} */
-
-/* .bg-dark {
-    background-color: var(--dark-color) !important;
-} */
-
-/* .bg-1 {
-    background-color: blue;
-} */
-
 
 main{
     position: relative;
@@ -238,39 +221,18 @@ main{
 }
 
 .home-section .home-intro h1 {
-    /* font-size: 70px;
-    font-weight: 600; */
+    
     color: var(--dark-color);
     margin:0 0 35px;
     line-height: 1; 
 }
 
-@media (max-width: 1200px){
-    .home-section .home-intro h1{
-        /* font-size: 60px; */
-    }
-}
-
 @media (max-width: 767px){
     .home-section .home-intro h1{
         margin: 0 0 25px;
-        /* font-size: 45px; */
+        
     }
 }
-
-/* .home-section .home-intro h1 span{
-    border-bottom: 2px solid var(--primary-color);
-} */
-
-/* .home-section .home-intro p{
-    font-size: 20px;
-}
-gi comment ang P kay wala P nako
-@media (max-width: 767px) {
-    .home-section .home-intro p {
-        font-size: 18px;
-    }
-} */
 
 .home-image img{
     height: 450px;
@@ -350,10 +312,6 @@ gi comment ang P kay wala P nako
         text-align: center;
     }
     
-}
-
-.about-text p {
-    /* font-size: 18px; */
 }
 
 .feature-box {
@@ -484,7 +442,6 @@ gi comment ang P kay wala P nako
 }
 
 /* Contact Section */
-
 .contact-form {
     border: 2px solid var(--dark-color);
     padding: 35px;
@@ -524,7 +481,6 @@ gi comment ang P kay wala P nako
     box-shadow: 0 0 0 0 var(--dark-color);
     display: flex;
     transition: .3s box-shadow;
-    /* padding-bottom: 35px; */
     padding: 12px;
 }
 
@@ -582,16 +538,14 @@ gi comment ang P kay wala P nako
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid rgba(255, 255, 255, .01);
-    /* color: rgba(255, 255, 255, .75); */
     color: #fff;
-    position: relative; /* Ensure it's positioned relative to its normal flow */
-    z-index: 1000; /* Ensure it appears above other content */
+    position: relative; 
+    z-index: 1000; 
 
 }
 
 .footer .nav a {
     font-size: 20px;
-    /* color: rgba(255, 255, 255, .75); */
     color: #fff;
 }
 
